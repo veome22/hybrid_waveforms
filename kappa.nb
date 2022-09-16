@@ -1,0 +1,213 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6938,        205]
+NotebookOptionsPosition[      5830,        179]
+NotebookOutlinePosition[      6267,        196]
+CellTagsIndexPosition[      6224,        193]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.8705967308914948`*^9, 3.8705967956707478`*^9}, {
+   3.87059725757024*^9, 3.8705974947249727`*^9}, {3.87059753134254*^9, 
+   3.870597574998694*^9}, {3.870600225298101*^9, 3.870600233180627*^9}, 
+   3.870602723193261*^9},ExpressionUUID->"53f308aa-fe12-4cdf-966f-\
+9a2e2c1842bf"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.870596791671229*^9, 
+  3.8705967925294952`*^9}},ExpressionUUID->"245380d4-afd9-4ee6-a066-\
+3e769f02d9b8"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Fplus", "[", 
+    RowBox[{"theta_", ",", " ", "phi_", ",", " ", "psi_"}], "]"}], " ", ":=", 
+   " ", 
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      RowBox[{"1", "+", 
+       SuperscriptBox[
+        RowBox[{"Cos", "[", "theta", "]"}], "2"]}], "2"], 
+     RowBox[{"Cos", "[", 
+      RowBox[{"2", " ", "phi"}], "]"}], " ", 
+     RowBox[{"Cos", "[", 
+      RowBox[{"2", " ", "psi"}], "]"}]}], " ", "-", " ", 
+    RowBox[{
+     RowBox[{"Cos", "[", "theta", "]"}], " ", 
+     RowBox[{"Sin", "[", 
+      RowBox[{"2", " ", "phi"}], "]"}], " ", 
+     RowBox[{"Sin", "[", 
+      RowBox[{"2", " ", "psi"}], "]"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Fcross", "[", 
+   RowBox[{"theta_", ",", " ", "phi_", ",", " ", "psi_"}], "]"}], " ", ":=", 
+  " ", 
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"1", "+", 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", "theta", "]"}], "2"]}], "2"], 
+    RowBox[{"Cos", "[", 
+     RowBox[{"2", " ", "phi"}], "]"}], " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"2", " ", "psi"}], "]"}]}], " ", "+", 
+   RowBox[{
+    RowBox[{"Cos", "[", "theta", "]"}], " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"2", " ", "phi"}], "]"}], " ", 
+    RowBox[{"Cos", "[", 
+     RowBox[{"2", " ", "psi"}], "]"}]}]}]}], "\[IndentingNewLine]"}], "Input",\
+
+ CellChangeTimes->{{3.870600306961886*^9, 3.870600336816821*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"12d657a6-e4f4-4f84-8f8e-2c182889d893"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"$Assumptions", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{"\[Kappa]", "\[Element]", "Reals"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"theta", " ", "=", " ", 
+   RowBox[{"\[Pi]", "/", "3"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"phi", " ", "=", " ", 
+   RowBox[{"\[Pi]", "/", "3"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"psi", " ", "=", " ", 
+   RowBox[{"\[Pi]", "/", "3"}]}], ";"}]}], "Input",ExpressionUUID->"726424b4-\
+9995-4d52-a21d-7f3371efb555"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Exp", "[", 
+     RowBox[{"\[ImaginaryI]", " ", "\[Kappa]"}], "]"}], " ", "==", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"Fplus", "[", 
+       RowBox[{"theta", ",", " ", "phi", ",", " ", "psi"}], "]"}], "+", 
+      RowBox[{"(", " ", 
+       RowBox[{"\[ImaginaryI]", "*", 
+        RowBox[{"Fcross", "[", 
+         RowBox[{"theta", ",", " ", "phi", ",", " ", "psi"}], "]"}]}], 
+       ")"}]}], 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"Fplus", "[", 
+         RowBox[{"theta", ",", " ", "phi", ",", " ", "psi"}], "]"}], "2"], 
+       "+", 
+       SuperscriptBox[
+        RowBox[{"Fcross", "[", 
+         RowBox[{"theta", ",", " ", "phi", ",", " ", "psi"}], "]"}], 
+        "2"]}]]]}], ",", " ", "\[Kappa]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.870602732440721*^9, 3.870602744422073*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"7499c8be-be2a-412f-8506-2cda936b6a31"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"\[Kappa]", "\[Rule]", 
+    TemplateBox[{
+      RowBox[{
+        RowBox[{"2", " ", "\[Pi]", " ", 
+          TemplateBox[{"1"}, "C"]}], "-", 
+        RowBox[{"\[ImaginaryI]", " ", 
+          RowBox[{"Log", "[", 
+            RowBox[{
+              FractionBox["1", "146"], " ", 
+              RowBox[{"(", 
+                RowBox[{
+                  RowBox[{
+                    RowBox[{"-", "7"}], " ", 
+                    SqrtBox["73"]}], "-", 
+                  RowBox[{"9", " ", "\[ImaginaryI]", " ", 
+                    SqrtBox["219"]}]}], ")"}]}], "]"}]}]}], 
+      RowBox[{
+        TemplateBox[{"1"}, "C"], "\[Element]", 
+        TemplateBox[{}, "Integers"]}]},
+     "ConditionalExpression"]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.8706005179221582`*^9, 3.870602748479134*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"9e0b3961-d71d-458d-aa67-8a62d4622177"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   RowBox[{"2", " ", "\[Pi]"}], "+", 
+   RowBox[{"Re", "[", 
+    RowBox[{
+     RowBox[{"-", "\[ImaginaryI]"}], " ", 
+     RowBox[{"Log", "[", 
+      RowBox[{
+       FractionBox["1", "146"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "7"}], " ", 
+          SqrtBox["73"]}], "-", 
+         RowBox[{"9", " ", "\[ImaginaryI]", " ", 
+          SqrtBox["219"]}]}], ")"}]}], "]"}]}], "]"}]}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[19]:=",ExpressionUUID->"d9471277-4a21-4501-97b2-c4acf33dda07"],
+
+Cell[BoxData["4.290325181601136`"], "Output",
+ CellChangeTimes->{3.8706030434109583`*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"9c71d775-bca9-4b75-82d6-ee42330a9562"]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{34, Automatic}, {Automatic, 15}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.1 for Mac OS X ARM (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"32db3ba4-cd23-42ec-bd11-7a8bfc581e0c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 344, 5, 52, "Input",ExpressionUUID->"53f308aa-fe12-4cdf-966f-9a2e2c1842bf"],
+Cell[905, 27, 154, 3, 30, "Input",ExpressionUUID->"245380d4-afd9-4ee6-a066-3e769f02d9b8"],
+Cell[1062, 32, 1481, 44, 118, "Input",ExpressionUUID->"12d657a6-e4f4-4f84-8f8e-2c182889d893"],
+Cell[2546, 78, 545, 15, 94, "Input",ExpressionUUID->"726424b4-9995-4d52-a21d-7f3371efb555"],
+Cell[CellGroupData[{
+Cell[3116, 97, 972, 26, 58, "Input",ExpressionUUID->"7499c8be-be2a-412f-8506-2cda936b6a31"],
+Cell[4091, 125, 926, 24, 60, "Output",ExpressionUUID->"9e0b3961-d71d-458d-aa67-8a62d4622177"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5054, 154, 589, 18, 48, "Input",ExpressionUUID->"d9471277-4a21-4501-97b2-c4acf33dda07"],
+Cell[5646, 174, 168, 2, 57, "Output",ExpressionUUID->"9c71d775-bca9-4b75-82d6-ee42330a9562"]
+}, Open  ]]
+}
+]
+*)
+
