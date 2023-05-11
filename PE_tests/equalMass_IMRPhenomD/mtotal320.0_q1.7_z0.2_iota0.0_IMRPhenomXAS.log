@@ -1,0 +1,25 @@
+16:22 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+16:22 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+16:22 INFO    : Injected signal in CE:
+16:22 INFO    :   optimal SNR = 2787.89
+16:22 INFO    :   matched filter SNR = 2787.89+0.00j
+16:22 INFO    :   chirp_mass = 160.79701983894856
+16:22 INFO    :   mass_1 = 240.0
+16:22 INFO    :   mass_2 = 144.0
+16:22 INFO    :   chi_1 = 0.0
+16:22 INFO    :   chi_2 = 0.0
+16:22 INFO    :   luminosity_distance = 1011.4196559461382
+16:22 INFO    :   theta_jn = 0.0
+16:22 INFO    :   psi = 1.0471975511965976
+16:22 INFO    :   phase = 0.0
+16:22 INFO    :   geocent_time = 1577491218.0
+16:22 INFO    :   ra = 1.0471975511965976
+16:22 INFO    :   dec = 1.0471975511965976
+16:22 INFO    :   reference_frequency = 20.0
+16:22 INFO    :   minimum_frequency = 20.0
