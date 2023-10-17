@@ -1,0 +1,949 @@
+14:10 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+14:10 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+14:10 INFO    : Injected signal in CES20:
+14:10 INFO    :   optimal SNR = 903.91
+14:10 INFO    :   matched filter SNR = 903.91+0.00j
+14:10 INFO    :   chirp_mass = 34.821486187949674
+14:10 INFO    :   mass_1 = 40.079519999999995
+14:10 INFO    :   mass_2 = 39.919439999999994
+14:10 INFO    :   chi_1 = 0.0
+14:10 INFO    :   chi_2 = 0.0
+14:10 INFO    :   luminosity_distance = 1011.4196559461382
+14:10 INFO    :   theta_jn = 0.0
+14:10 INFO    :   psi = 1.0471975511965976
+14:10 INFO    :   phase = 0.0
+14:10 INFO    :   geocent_time = 1577491218.0
+14:10 INFO    :   ra = 1.0471975511965976
+14:10 INFO    :   dec = 1.0471975511965976
+14:10 INFO    :   reference_frequency = 5.0
+14:10 INFO    :   minimum_frequency = 5.0
+14:10 INFO    : Injected signal in CES:
+14:10 INFO    :   optimal SNR = 1471.35
+14:10 INFO    :   matched filter SNR = 1471.35+0.00j
+14:10 INFO    :   chirp_mass = 34.821486187949674
+14:10 INFO    :   mass_1 = 40.079519999999995
+14:10 INFO    :   mass_2 = 39.919439999999994
+14:10 INFO    :   chi_1 = 0.0
+14:10 INFO    :   chi_2 = 0.0
+14:10 INFO    :   luminosity_distance = 1011.4196559461382
+14:10 INFO    :   theta_jn = 0.0
+14:10 INFO    :   psi = 1.0471975511965976
+14:10 INFO    :   phase = 0.0
+14:10 INFO    :   geocent_time = 1577491218.0
+14:10 INFO    :   ra = 1.0471975511965976
+14:10 INFO    :   dec = 1.0471975511965976
+14:10 INFO    :   reference_frequency = 5.0
+14:10 INFO    :   minimum_frequency = 5.0
+14:10 INFO    : Injected signal in ET1:
+14:10 INFO    :   optimal SNR = 527.39
+14:10 INFO    :   matched filter SNR = 527.39+0.00j
+14:10 INFO    :   chirp_mass = 34.821486187949674
+14:10 INFO    :   mass_1 = 40.079519999999995
+14:10 INFO    :   mass_2 = 39.919439999999994
+14:10 INFO    :   chi_1 = 0.0
+14:10 INFO    :   chi_2 = 0.0
+14:10 INFO    :   luminosity_distance = 1011.4196559461382
+14:10 INFO    :   theta_jn = 0.0
+14:10 INFO    :   psi = 1.0471975511965976
+14:10 INFO    :   phase = 0.0
+14:10 INFO    :   geocent_time = 1577491218.0
+14:10 INFO    :   ra = 1.0471975511965976
+14:10 INFO    :   dec = 1.0471975511965976
+14:10 INFO    :   reference_frequency = 5.0
+14:10 INFO    :   minimum_frequency = 5.0
+14:10 INFO    : Injected signal in ET2:
+14:10 INFO    :   optimal SNR = 526.06
+14:10 INFO    :   matched filter SNR = 526.06+0.00j
+14:10 INFO    :   chirp_mass = 34.821486187949674
+14:10 INFO    :   mass_1 = 40.079519999999995
+14:10 INFO    :   mass_2 = 39.919439999999994
+14:10 INFO    :   chi_1 = 0.0
+14:10 INFO    :   chi_2 = 0.0
+14:10 INFO    :   luminosity_distance = 1011.4196559461382
+14:10 INFO    :   theta_jn = 0.0
+14:10 INFO    :   psi = 1.0471975511965976
+14:10 INFO    :   phase = 0.0
+14:10 INFO    :   geocent_time = 1577491218.0
+14:10 INFO    :   ra = 1.0471975511965976
+14:10 INFO    :   dec = 1.0471975511965976
+14:10 INFO    :   reference_frequency = 5.0
+14:10 INFO    :   minimum_frequency = 5.0
+14:10 INFO    : Injected signal in ET3:
+14:10 INFO    :   optimal SNR = 519.45
+14:10 INFO    :   matched filter SNR = 519.45+0.00j
+14:10 INFO    :   chirp_mass = 34.821486187949674
+14:10 INFO    :   mass_1 = 40.079519999999995
+14:10 INFO    :   mass_2 = 39.919439999999994
+14:10 INFO    :   chi_1 = 0.0
+14:10 INFO    :   chi_2 = 0.0
+14:10 INFO    :   luminosity_distance = 1011.4196559461382
+14:10 INFO    :   theta_jn = 0.0
+14:10 INFO    :   psi = 1.0471975511965976
+14:10 INFO    :   phase = 0.0
+14:10 INFO    :   geocent_time = 1577491218.0
+14:10 INFO    :   ra = 1.0471975511965976
+14:10 INFO    :   dec = 1.0471975511965976
+14:10 INFO    :   reference_frequency = 5.0
+14:10 INFO    :   minimum_frequency = 5.0
+14:10 INFO    : Distance marginalisation file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_dist_lookup.npz does not exist
+14:10 INFO    : Building lookup table for distance marginalisation.
+14:11 INFO    : Running for label 'mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS', output will be saved to '/work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56'
+14:11 INFO    : Using lal version 7.1.3
+14:11 INFO    : Using lal git version Branch: None;Tag: lal-v7.1.3;Id: fa9914e5d72cc6168463b5fce79eeba8037404ad;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed
+14:11 INFO    : Using lalsimulation version 3.0.0
+14:11 INFO    : Using lalsimulation git version Branch: None;Tag: lalsimulation-v3.0.0;Id: e8e5ff5aa1ae2676019f59b6785f55284c417fda;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed
+14:11 INFO    : Search parameters:
+14:11 INFO    :   mass_ratio = PowerLaw(alpha=-2.0, minimum=0.1, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+14:11 INFO    :   total_mass = Uniform(minimum=19.99974, maximum=199.9974, name='total_mass', latex_label='$M$', unit=None, boundary=None)
+14:11 INFO    :   dec = Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+14:11 INFO    :   ra = Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+14:11 INFO    :   theta_jn = Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+14:11 INFO    :   psi = Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\psi$', unit=None, boundary='periodic')
+14:11 INFO    :   delta_phase = Uniform(minimum=0, maximum=6.283185307179586, name='delta_phase', latex_label='delta_phase', unit=None, boundary='periodic')
+14:11 INFO    :   chi_1 = Uniform(minimum=0, maximum=0.99, name='chi_1', latex_label='$\\chi_1$', unit=None, boundary=None)
+14:11 INFO    :   chi_2 = Uniform(minimum=0, maximum=0.99, name='chi_2', latex_label='$\\chi_2$', unit=None, boundary=None)
+14:11 INFO    :   time_jitter = Uniform(minimum=-0.00048828125, maximum=0.00048828125, name='time_jitter', latex_label='$t_j$', unit=None, boundary='periodic')
+14:11 INFO    :   luminosity_distance = 3417.166073216123
+14:11 INFO    :   geocent_time = 1577490956.0
+14:12 INFO    : Single likelihood evaluation took 8.199e-01 s
+14:12 INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 1800, 'nlive': 1024, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 56, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 614, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x2b530f71b350>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 2000, 'nact': 5, 'print_method': 'tqdm'}
+14:12 INFO    : Checkpoint every check_point_delta_t = 600s
+14:12 INFO    : Using dynesty version 1.0.1
+14:12 INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+14:12 INFO    : Setting up multiproccesing pool with 56 processes.
+14:12 INFO    : Resume file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle does not exist.
+14:12 INFO    : Generating initial points from the prior
+14:40 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+14:40 WARNING : singular matrix
+14:40 WARNING : Failed to create dynesty state plot at checkpoint
+14:40 WARNING : singular matrix
+14:40 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:40 WARNING : singular matrix
+14:40 WARNING : Failed to create dynesty run plot at checkpoint
+14:51 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+14:51 WARNING : singular matrix
+14:51 WARNING : Failed to create dynesty state plot at checkpoint
+14:51 WARNING : singular matrix
+14:51 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:51 WARNING : singular matrix
+14:51 WARNING : Failed to create dynesty run plot at checkpoint
+15:02 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:02 WARNING : singular matrix
+15:02 WARNING : Failed to create dynesty state plot at checkpoint
+15:02 WARNING : singular matrix
+15:02 WARNING : Failed to create dynesty unit state plot at checkpoint
+15:02 WARNING : singular matrix
+15:02 WARNING : Failed to create dynesty run plot at checkpoint
+15:13 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:13 WARNING : singular matrix
+15:13 WARNING : Failed to create dynesty state plot at checkpoint
+15:13 WARNING : singular matrix
+15:13 WARNING : Failed to create dynesty unit state plot at checkpoint
+15:13 WARNING : singular matrix
+15:13 WARNING : Failed to create dynesty run plot at checkpoint
+15:24 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:24 WARNING : Axis limits cannot be NaN or Inf
+15:24 WARNING : Failed to create dynesty run plot at checkpoint
+15:36 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:37 WARNING : Axis limits cannot be NaN or Inf
+15:37 WARNING : Failed to create dynesty run plot at checkpoint
+15:49 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:50 WARNING : Axis limits cannot be NaN or Inf
+15:50 WARNING : Failed to create dynesty run plot at checkpoint
+16:00 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:00 WARNING : singular matrix
+16:00 WARNING : Failed to create dynesty state plot at checkpoint
+16:00 WARNING : singular matrix
+16:00 WARNING : Failed to create dynesty unit state plot at checkpoint
+16:00 WARNING : singular matrix
+16:00 WARNING : Failed to create dynesty run plot at checkpoint
+16:11 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:11 WARNING : Axis limits cannot be NaN or Inf
+16:11 WARNING : Failed to create dynesty run plot at checkpoint
+16:22 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:22 WARNING : Axis limits cannot be NaN or Inf
+16:22 WARNING : Failed to create dynesty run plot at checkpoint
+16:34 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:34 WARNING : singular matrix
+16:34 WARNING : Failed to create dynesty state plot at checkpoint
+16:34 WARNING : singular matrix
+16:34 WARNING : Failed to create dynesty unit state plot at checkpoint
+16:34 WARNING : singular matrix
+16:34 WARNING : Failed to create dynesty run plot at checkpoint
+16:46 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:46 WARNING : singular matrix
+16:46 WARNING : Failed to create dynesty state plot at checkpoint
+16:46 WARNING : singular matrix
+16:46 WARNING : Failed to create dynesty unit state plot at checkpoint
+16:46 WARNING : singular matrix
+16:46 WARNING : Failed to create dynesty run plot at checkpoint
+16:58 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:58 WARNING : Axis limits cannot be NaN or Inf
+16:58 WARNING : Failed to create dynesty run plot at checkpoint
+17:11 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:11 WARNING : Axis limits cannot be NaN or Inf
+17:11 WARNING : Failed to create dynesty run plot at checkpoint
+17:25 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:25 WARNING : Axis limits cannot be NaN or Inf
+17:25 WARNING : Failed to create dynesty run plot at checkpoint
+17:40 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:40 WARNING : Axis limits cannot be NaN or Inf
+17:40 WARNING : Failed to create dynesty run plot at checkpoint
+17:53 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:53 WARNING : singular matrix
+17:53 WARNING : Failed to create dynesty state plot at checkpoint
+17:53 WARNING : singular matrix
+17:53 WARNING : Failed to create dynesty unit state plot at checkpoint
+17:53 WARNING : singular matrix
+17:53 WARNING : Failed to create dynesty run plot at checkpoint
+18:04 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:04 WARNING : Axis limits cannot be NaN or Inf
+18:04 WARNING : Failed to create dynesty run plot at checkpoint
+18:14 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:14 WARNING : Axis limits cannot be NaN or Inf
+18:14 WARNING : Failed to create dynesty run plot at checkpoint
+18:30 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:33 WARNING : Axis limits cannot be NaN or Inf
+18:33 WARNING : Failed to create dynesty run plot at checkpoint
+18:43 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:44 WARNING : Axis limits cannot be NaN or Inf
+18:44 WARNING : Failed to create dynesty run plot at checkpoint
+18:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:54 WARNING : Axis limits cannot be NaN or Inf
+18:54 WARNING : Failed to create dynesty run plot at checkpoint
+19:04 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:04 WARNING : Axis limits cannot be NaN or Inf
+19:04 WARNING : Failed to create dynesty run plot at checkpoint
+19:15 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:15 WARNING : Axis limits cannot be NaN or Inf
+19:15 WARNING : Failed to create dynesty run plot at checkpoint
+19:26 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:26 WARNING : Axis limits cannot be NaN or Inf
+19:26 WARNING : Failed to create dynesty run plot at checkpoint
+19:36 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:36 WARNING : Axis limits cannot be NaN or Inf
+19:36 WARNING : Failed to create dynesty run plot at checkpoint
+19:47 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:47 WARNING : Axis limits cannot be NaN or Inf
+19:47 WARNING : Failed to create dynesty run plot at checkpoint
+19:57 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:58 WARNING : Axis limits cannot be NaN or Inf
+19:58 WARNING : Failed to create dynesty run plot at checkpoint
+20:08 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:09 WARNING : Axis limits cannot be NaN or Inf
+20:09 WARNING : Failed to create dynesty run plot at checkpoint
+20:19 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:20 WARNING : Axis limits cannot be NaN or Inf
+20:20 WARNING : Failed to create dynesty run plot at checkpoint
+20:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:31 WARNING : Axis limits cannot be NaN or Inf
+20:31 WARNING : Failed to create dynesty run plot at checkpoint
+20:42 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:42 WARNING : Axis limits cannot be NaN or Inf
+20:42 WARNING : Failed to create dynesty run plot at checkpoint
+20:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:54 WARNING : singular matrix
+20:54 WARNING : Failed to create dynesty state plot at checkpoint
+20:54 WARNING : singular matrix
+20:54 WARNING : Failed to create dynesty unit state plot at checkpoint
+20:54 WARNING : singular matrix
+20:54 WARNING : Failed to create dynesty run plot at checkpoint
+21:06 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:06 WARNING : Axis limits cannot be NaN or Inf
+21:06 WARNING : Failed to create dynesty run plot at checkpoint
+21:18 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:18 WARNING : Axis limits cannot be NaN or Inf
+21:18 WARNING : Failed to create dynesty run plot at checkpoint
+21:29 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:29 WARNING : Axis limits cannot be NaN or Inf
+21:29 WARNING : Failed to create dynesty run plot at checkpoint
+21:41 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:41 WARNING : Axis limits cannot be NaN or Inf
+21:41 WARNING : Failed to create dynesty run plot at checkpoint
+21:53 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:53 WARNING : Axis limits cannot be NaN or Inf
+21:53 WARNING : Failed to create dynesty run plot at checkpoint
+22:05 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:05 WARNING : Axis limits cannot be NaN or Inf
+22:05 WARNING : Failed to create dynesty run plot at checkpoint
+22:16 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:16 WARNING : Axis limits cannot be NaN or Inf
+22:16 WARNING : Failed to create dynesty run plot at checkpoint
+22:28 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:29 WARNING : Axis limits cannot be NaN or Inf
+22:29 WARNING : Failed to create dynesty run plot at checkpoint
+22:41 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:41 WARNING : singular matrix
+22:41 WARNING : Failed to create dynesty state plot at checkpoint
+22:41 WARNING : singular matrix
+22:41 WARNING : Failed to create dynesty unit state plot at checkpoint
+22:41 WARNING : singular matrix
+22:41 WARNING : Failed to create dynesty run plot at checkpoint
+22:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:54 WARNING : Axis limits cannot be NaN or Inf
+22:54 WARNING : Failed to create dynesty run plot at checkpoint
+23:06 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:06 WARNING : Axis limits cannot be NaN or Inf
+23:06 WARNING : Failed to create dynesty run plot at checkpoint
+23:19 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:19 WARNING : Axis limits cannot be NaN or Inf
+23:19 WARNING : Failed to create dynesty run plot at checkpoint
+23:32 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:32 WARNING : Axis limits cannot be NaN or Inf
+23:32 WARNING : Failed to create dynesty run plot at checkpoint
+23:44 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:44 WARNING : Axis limits cannot be NaN or Inf
+23:44 WARNING : Failed to create dynesty run plot at checkpoint
+23:57 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:57 WARNING : Axis limits cannot be NaN or Inf
+23:57 WARNING : Failed to create dynesty run plot at checkpoint
+00:10 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:10 WARNING : Axis limits cannot be NaN or Inf
+00:10 WARNING : Failed to create dynesty run plot at checkpoint
+00:22 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:22 WARNING : Axis limits cannot be NaN or Inf
+00:22 WARNING : Failed to create dynesty run plot at checkpoint
+00:34 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:34 WARNING : Axis limits cannot be NaN or Inf
+00:34 WARNING : Failed to create dynesty run plot at checkpoint
+00:47 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:47 WARNING : Axis limits cannot be NaN or Inf
+00:47 WARNING : Failed to create dynesty run plot at checkpoint
+00:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:59 WARNING : singular matrix
+00:59 WARNING : Failed to create dynesty state plot at checkpoint
+00:59 WARNING : singular matrix
+00:59 WARNING : Failed to create dynesty unit state plot at checkpoint
+00:59 WARNING : singular matrix
+00:59 WARNING : Failed to create dynesty run plot at checkpoint
+01:11 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:12 WARNING : Axis limits cannot be NaN or Inf
+01:12 WARNING : Failed to create dynesty run plot at checkpoint
+01:24 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:24 WARNING : singular matrix
+01:24 WARNING : Failed to create dynesty state plot at checkpoint
+01:24 WARNING : singular matrix
+01:24 WARNING : Failed to create dynesty unit state plot at checkpoint
+01:24 WARNING : singular matrix
+01:24 WARNING : Failed to create dynesty run plot at checkpoint
+01:37 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:37 WARNING : Axis limits cannot be NaN or Inf
+01:37 WARNING : Failed to create dynesty run plot at checkpoint
+01:49 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:49 WARNING : Axis limits cannot be NaN or Inf
+01:49 WARNING : Failed to create dynesty run plot at checkpoint
+02:02 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:02 WARNING : Axis limits cannot be NaN or Inf
+02:02 WARNING : Failed to create dynesty run plot at checkpoint
+02:14 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:14 WARNING : Axis limits cannot be NaN or Inf
+02:14 WARNING : Failed to create dynesty run plot at checkpoint
+02:27 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:27 WARNING : singular matrix
+02:27 WARNING : Failed to create dynesty state plot at checkpoint
+02:27 WARNING : singular matrix
+02:27 WARNING : Failed to create dynesty unit state plot at checkpoint
+02:27 WARNING : singular matrix
+02:27 WARNING : Failed to create dynesty run plot at checkpoint
+02:40 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:40 WARNING : singular matrix
+02:40 WARNING : Failed to create dynesty state plot at checkpoint
+02:40 WARNING : singular matrix
+02:40 WARNING : Failed to create dynesty unit state plot at checkpoint
+02:40 WARNING : singular matrix
+02:40 WARNING : Failed to create dynesty run plot at checkpoint
+02:52 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:52 WARNING : Axis limits cannot be NaN or Inf
+02:52 WARNING : Failed to create dynesty run plot at checkpoint
+03:05 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:05 WARNING : Axis limits cannot be NaN or Inf
+03:05 WARNING : Failed to create dynesty run plot at checkpoint
+03:18 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:18 WARNING : singular matrix
+03:18 WARNING : Failed to create dynesty state plot at checkpoint
+03:18 WARNING : singular matrix
+03:18 WARNING : Failed to create dynesty unit state plot at checkpoint
+03:18 WARNING : singular matrix
+03:18 WARNING : Failed to create dynesty run plot at checkpoint
+03:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:31 WARNING : singular matrix
+03:31 WARNING : Failed to create dynesty state plot at checkpoint
+03:31 WARNING : singular matrix
+03:31 WARNING : Failed to create dynesty unit state plot at checkpoint
+03:31 WARNING : singular matrix
+03:31 WARNING : Failed to create dynesty run plot at checkpoint
+03:44 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:44 WARNING : Axis limits cannot be NaN or Inf
+03:44 WARNING : Failed to create dynesty run plot at checkpoint
+03:56 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:56 WARNING : Axis limits cannot be NaN or Inf
+03:56 WARNING : Failed to create dynesty run plot at checkpoint
+04:09 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:09 WARNING : Axis limits cannot be NaN or Inf
+04:09 WARNING : Failed to create dynesty run plot at checkpoint
+04:22 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:22 WARNING : Axis limits cannot be NaN or Inf
+04:22 WARNING : Failed to create dynesty run plot at checkpoint
+04:35 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:35 WARNING : Axis limits cannot be NaN or Inf
+04:35 WARNING : Failed to create dynesty run plot at checkpoint
+04:47 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:47 WARNING : singular matrix
+04:47 WARNING : Failed to create dynesty state plot at checkpoint
+04:47 WARNING : singular matrix
+04:47 WARNING : Failed to create dynesty unit state plot at checkpoint
+04:47 WARNING : singular matrix
+04:47 WARNING : Failed to create dynesty run plot at checkpoint
+05:00 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:00 WARNING : Axis limits cannot be NaN or Inf
+05:00 WARNING : Failed to create dynesty run plot at checkpoint
+05:13 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:13 WARNING : singular matrix
+05:13 WARNING : Failed to create dynesty state plot at checkpoint
+05:13 WARNING : singular matrix
+05:13 WARNING : Failed to create dynesty unit state plot at checkpoint
+05:13 WARNING : singular matrix
+05:13 WARNING : Failed to create dynesty run plot at checkpoint
+05:26 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:26 WARNING : Axis limits cannot be NaN or Inf
+05:26 WARNING : Failed to create dynesty run plot at checkpoint
+05:39 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:39 WARNING : Axis limits cannot be NaN or Inf
+05:39 WARNING : Failed to create dynesty run plot at checkpoint
+05:52 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:52 WARNING : singular matrix
+05:52 WARNING : Failed to create dynesty state plot at checkpoint
+05:52 WARNING : singular matrix
+05:52 WARNING : Failed to create dynesty unit state plot at checkpoint
+05:52 WARNING : singular matrix
+05:52 WARNING : Failed to create dynesty run plot at checkpoint
+06:05 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:05 WARNING : Axis limits cannot be NaN or Inf
+06:05 WARNING : Failed to create dynesty run plot at checkpoint
+06:18 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:18 WARNING : Axis limits cannot be NaN or Inf
+06:18 WARNING : Failed to create dynesty run plot at checkpoint
+06:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:31 WARNING : Axis limits cannot be NaN or Inf
+06:31 WARNING : Failed to create dynesty run plot at checkpoint
+06:43 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:43 WARNING : singular matrix
+06:43 WARNING : Failed to create dynesty state plot at checkpoint
+06:43 WARNING : singular matrix
+06:43 WARNING : Failed to create dynesty unit state plot at checkpoint
+06:43 WARNING : singular matrix
+06:43 WARNING : Failed to create dynesty run plot at checkpoint
+06:56 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:56 WARNING : Axis limits cannot be NaN or Inf
+06:56 WARNING : Failed to create dynesty run plot at checkpoint
+07:08 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:09 WARNING : Axis limits cannot be NaN or Inf
+07:09 WARNING : Failed to create dynesty run plot at checkpoint
+07:21 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:21 WARNING : Axis limits cannot be NaN or Inf
+07:21 WARNING : Failed to create dynesty run plot at checkpoint
+07:34 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:34 WARNING : Axis limits cannot be NaN or Inf
+07:34 WARNING : Failed to create dynesty run plot at checkpoint
+07:48 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:48 WARNING : Axis limits cannot be NaN or Inf
+07:48 WARNING : Failed to create dynesty run plot at checkpoint
+08:00 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:00 WARNING : Axis limits cannot be NaN or Inf
+08:00 WARNING : Failed to create dynesty run plot at checkpoint
+08:13 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:13 WARNING : Axis limits cannot be NaN or Inf
+08:13 WARNING : Failed to create dynesty run plot at checkpoint
+08:26 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:26 WARNING : Axis limits cannot be NaN or Inf
+08:26 WARNING : Failed to create dynesty run plot at checkpoint
+08:39 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:39 WARNING : Axis limits cannot be NaN or Inf
+08:39 WARNING : Failed to create dynesty run plot at checkpoint
+08:53 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:53 WARNING : Axis limits cannot be NaN or Inf
+08:53 WARNING : Failed to create dynesty run plot at checkpoint
+09:06 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:06 WARNING : Axis limits cannot be NaN or Inf
+09:06 WARNING : Failed to create dynesty run plot at checkpoint
+09:19 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:19 WARNING : Axis limits cannot be NaN or Inf
+09:19 WARNING : Failed to create dynesty run plot at checkpoint
+09:35 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:36 WARNING : Axis limits cannot be NaN or Inf
+09:36 WARNING : Failed to create dynesty run plot at checkpoint
+09:49 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:49 WARNING : Axis limits cannot be NaN or Inf
+09:49 WARNING : Failed to create dynesty run plot at checkpoint
+10:03 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:03 WARNING : Axis limits cannot be NaN or Inf
+10:03 WARNING : Failed to create dynesty run plot at checkpoint
+10:17 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:18 WARNING : Axis limits cannot be NaN or Inf
+10:18 WARNING : Failed to create dynesty run plot at checkpoint
+10:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:31 WARNING : Axis limits cannot be NaN or Inf
+10:31 WARNING : Failed to create dynesty run plot at checkpoint
+10:45 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:45 WARNING : Axis limits cannot be NaN or Inf
+10:45 WARNING : Failed to create dynesty run plot at checkpoint
+10:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:59 WARNING : singular matrix
+10:59 WARNING : Failed to create dynesty state plot at checkpoint
+10:59 WARNING : singular matrix
+10:59 WARNING : Failed to create dynesty unit state plot at checkpoint
+10:59 WARNING : singular matrix
+10:59 WARNING : Failed to create dynesty run plot at checkpoint
+11:14 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:14 WARNING : singular matrix
+11:14 WARNING : Failed to create dynesty state plot at checkpoint
+11:14 WARNING : singular matrix
+11:14 WARNING : Failed to create dynesty unit state plot at checkpoint
+11:14 WARNING : singular matrix
+11:14 WARNING : Failed to create dynesty run plot at checkpoint
+11:28 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:29 WARNING : Axis limits cannot be NaN or Inf
+11:29 WARNING : Failed to create dynesty run plot at checkpoint
+11:43 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:44 WARNING : Axis limits cannot be NaN or Inf
+11:44 WARNING : Failed to create dynesty run plot at checkpoint
+11:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:59 WARNING : Axis limits cannot be NaN or Inf
+11:59 WARNING : Failed to create dynesty run plot at checkpoint
+12:14 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:14 WARNING : Axis limits cannot be NaN or Inf
+12:14 WARNING : Failed to create dynesty run plot at checkpoint
+12:30 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:30 WARNING : Axis limits cannot be NaN or Inf
+12:30 WARNING : Failed to create dynesty run plot at checkpoint
+12:45 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:45 WARNING : Axis limits cannot be NaN or Inf
+12:45 WARNING : Failed to create dynesty run plot at checkpoint
+12:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:00 WARNING : Axis limits cannot be NaN or Inf
+13:00 WARNING : Failed to create dynesty run plot at checkpoint
+13:14 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:14 WARNING : Axis limits cannot be NaN or Inf
+13:14 WARNING : Failed to create dynesty run plot at checkpoint
+13:27 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:27 WARNING : Axis limits cannot be NaN or Inf
+13:27 WARNING : Failed to create dynesty run plot at checkpoint
+13:41 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:41 WARNING : Axis limits cannot be NaN or Inf
+13:41 WARNING : Failed to create dynesty run plot at checkpoint
+13:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:55 WARNING : Axis limits cannot be NaN or Inf
+13:55 WARNING : Failed to create dynesty run plot at checkpoint
+14:09 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+14:09 WARNING : singular matrix
+14:09 WARNING : Failed to create dynesty state plot at checkpoint
+14:09 WARNING : singular matrix
+14:09 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:09 WARNING : singular matrix
+14:09 WARNING : Failed to create dynesty run plot at checkpoint
+14:23 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+14:23 WARNING : singular matrix
+14:23 WARNING : Failed to create dynesty state plot at checkpoint
+14:23 WARNING : singular matrix
+14:23 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:23 WARNING : singular matrix
+14:23 WARNING : Failed to create dynesty run plot at checkpoint
+14:36 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+14:36 WARNING : Axis limits cannot be NaN or Inf
+14:36 WARNING : Failed to create dynesty run plot at checkpoint
+14:50 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+14:50 WARNING : singular matrix
+14:50 WARNING : Failed to create dynesty state plot at checkpoint
+14:50 WARNING : singular matrix
+14:50 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:50 WARNING : singular matrix
+14:50 WARNING : Failed to create dynesty run plot at checkpoint
+15:04 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:04 WARNING : Axis limits cannot be NaN or Inf
+15:04 WARNING : Failed to create dynesty run plot at checkpoint
+15:18 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:18 WARNING : Axis limits cannot be NaN or Inf
+15:18 WARNING : Failed to create dynesty run plot at checkpoint
+15:32 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:32 WARNING : singular matrix
+15:32 WARNING : Failed to create dynesty state plot at checkpoint
+15:32 WARNING : singular matrix
+15:32 WARNING : Failed to create dynesty unit state plot at checkpoint
+15:32 WARNING : singular matrix
+15:32 WARNING : Failed to create dynesty run plot at checkpoint
+15:45 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:46 WARNING : Axis limits cannot be NaN or Inf
+15:46 WARNING : Failed to create dynesty run plot at checkpoint
+15:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+15:59 WARNING : singular matrix
+15:59 WARNING : Failed to create dynesty state plot at checkpoint
+15:59 WARNING : singular matrix
+15:59 WARNING : Failed to create dynesty unit state plot at checkpoint
+15:59 WARNING : singular matrix
+15:59 WARNING : Failed to create dynesty run plot at checkpoint
+16:13 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:13 WARNING : Axis limits cannot be NaN or Inf
+16:13 WARNING : Failed to create dynesty run plot at checkpoint
+16:27 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:27 WARNING : Axis limits cannot be NaN or Inf
+16:27 WARNING : Failed to create dynesty run plot at checkpoint
+16:41 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:41 WARNING : Axis limits cannot be NaN or Inf
+16:41 WARNING : Failed to create dynesty run plot at checkpoint
+16:55 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+16:55 WARNING : Axis limits cannot be NaN or Inf
+16:55 WARNING : Failed to create dynesty run plot at checkpoint
+17:08 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:08 WARNING : Axis limits cannot be NaN or Inf
+17:08 WARNING : Failed to create dynesty run plot at checkpoint
+17:22 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:22 WARNING : Axis limits cannot be NaN or Inf
+17:22 WARNING : Failed to create dynesty run plot at checkpoint
+17:36 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:36 WARNING : Axis limits cannot be NaN or Inf
+17:36 WARNING : Failed to create dynesty run plot at checkpoint
+17:49 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+17:49 WARNING : Axis limits cannot be NaN or Inf
+17:49 WARNING : Failed to create dynesty run plot at checkpoint
+18:03 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:03 WARNING : Axis limits cannot be NaN or Inf
+18:03 WARNING : Failed to create dynesty run plot at checkpoint
+18:17 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:17 WARNING : Axis limits cannot be NaN or Inf
+18:17 WARNING : Failed to create dynesty run plot at checkpoint
+18:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:31 WARNING : Axis limits cannot be NaN or Inf
+18:31 WARNING : Failed to create dynesty run plot at checkpoint
+18:45 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:45 WARNING : Axis limits cannot be NaN or Inf
+18:45 WARNING : Failed to create dynesty run plot at checkpoint
+18:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+18:59 WARNING : Axis limits cannot be NaN or Inf
+18:59 WARNING : Failed to create dynesty run plot at checkpoint
+19:13 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:13 WARNING : Axis limits cannot be NaN or Inf
+19:13 WARNING : Failed to create dynesty run plot at checkpoint
+19:26 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:26 WARNING : singular matrix
+19:26 WARNING : Failed to create dynesty state plot at checkpoint
+19:26 WARNING : singular matrix
+19:26 WARNING : Failed to create dynesty unit state plot at checkpoint
+19:26 WARNING : singular matrix
+19:26 WARNING : Failed to create dynesty run plot at checkpoint
+19:40 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:40 WARNING : Axis limits cannot be NaN or Inf
+19:40 WARNING : Failed to create dynesty run plot at checkpoint
+19:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+19:54 WARNING : Axis limits cannot be NaN or Inf
+19:54 WARNING : Failed to create dynesty run plot at checkpoint
+20:08 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:08 WARNING : Axis limits cannot be NaN or Inf
+20:08 WARNING : Failed to create dynesty run plot at checkpoint
+20:22 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:23 WARNING : Axis limits cannot be NaN or Inf
+20:23 WARNING : Failed to create dynesty run plot at checkpoint
+20:36 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:36 WARNING : Axis limits cannot be NaN or Inf
+20:36 WARNING : Failed to create dynesty run plot at checkpoint
+20:51 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+20:51 WARNING : Axis limits cannot be NaN or Inf
+20:51 WARNING : Failed to create dynesty run plot at checkpoint
+21:05 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:05 WARNING : Axis limits cannot be NaN or Inf
+21:05 WARNING : Failed to create dynesty run plot at checkpoint
+21:19 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:19 WARNING : Axis limits cannot be NaN or Inf
+21:19 WARNING : Failed to create dynesty run plot at checkpoint
+21:33 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:33 WARNING : Axis limits cannot be NaN or Inf
+21:33 WARNING : Failed to create dynesty run plot at checkpoint
+21:46 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+21:47 WARNING : Axis limits cannot be NaN or Inf
+21:47 WARNING : Failed to create dynesty run plot at checkpoint
+22:00 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:00 WARNING : Axis limits cannot be NaN or Inf
+22:00 WARNING : Failed to create dynesty run plot at checkpoint
+22:15 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:15 WARNING : Axis limits cannot be NaN or Inf
+22:15 WARNING : Failed to create dynesty run plot at checkpoint
+22:29 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:29 WARNING : Axis limits cannot be NaN or Inf
+22:29 WARNING : Failed to create dynesty run plot at checkpoint
+22:43 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:43 WARNING : Axis limits cannot be NaN or Inf
+22:43 WARNING : Failed to create dynesty run plot at checkpoint
+22:57 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+22:57 WARNING : Axis limits cannot be NaN or Inf
+22:57 WARNING : Failed to create dynesty run plot at checkpoint
+23:11 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:11 WARNING : Axis limits cannot be NaN or Inf
+23:11 WARNING : Failed to create dynesty run plot at checkpoint
+23:25 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:25 WARNING : singular matrix
+23:25 WARNING : Failed to create dynesty state plot at checkpoint
+23:25 WARNING : singular matrix
+23:25 WARNING : Failed to create dynesty unit state plot at checkpoint
+23:25 WARNING : singular matrix
+23:25 WARNING : Failed to create dynesty run plot at checkpoint
+23:39 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:40 WARNING : Axis limits cannot be NaN or Inf
+23:40 WARNING : Failed to create dynesty run plot at checkpoint
+23:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+23:54 WARNING : singular matrix
+23:54 WARNING : Failed to create dynesty state plot at checkpoint
+23:54 WARNING : singular matrix
+23:54 WARNING : Failed to create dynesty unit state plot at checkpoint
+23:54 WARNING : singular matrix
+23:54 WARNING : Failed to create dynesty run plot at checkpoint
+00:08 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:08 WARNING : Axis limits cannot be NaN or Inf
+00:08 WARNING : Failed to create dynesty run plot at checkpoint
+00:21 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:21 WARNING : Axis limits cannot be NaN or Inf
+00:21 WARNING : Failed to create dynesty run plot at checkpoint
+00:35 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:35 WARNING : singular matrix
+00:35 WARNING : Failed to create dynesty state plot at checkpoint
+00:35 WARNING : singular matrix
+00:35 WARNING : Failed to create dynesty unit state plot at checkpoint
+00:35 WARNING : singular matrix
+00:35 WARNING : Failed to create dynesty run plot at checkpoint
+00:50 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+00:50 WARNING : Axis limits cannot be NaN or Inf
+00:50 WARNING : Failed to create dynesty run plot at checkpoint
+01:03 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:03 WARNING : singular matrix
+01:03 WARNING : Failed to create dynesty state plot at checkpoint
+01:03 WARNING : singular matrix
+01:03 WARNING : Failed to create dynesty unit state plot at checkpoint
+01:03 WARNING : singular matrix
+01:03 WARNING : Failed to create dynesty run plot at checkpoint
+01:17 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:17 WARNING : Axis limits cannot be NaN or Inf
+01:17 WARNING : Failed to create dynesty run plot at checkpoint
+01:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:31 WARNING : Axis limits cannot be NaN or Inf
+01:31 WARNING : Failed to create dynesty run plot at checkpoint
+01:45 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:45 WARNING : Axis limits cannot be NaN or Inf
+01:45 WARNING : Failed to create dynesty run plot at checkpoint
+01:59 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+01:59 WARNING : singular matrix
+01:59 WARNING : Failed to create dynesty state plot at checkpoint
+01:59 WARNING : singular matrix
+01:59 WARNING : Failed to create dynesty unit state plot at checkpoint
+01:59 WARNING : singular matrix
+01:59 WARNING : Failed to create dynesty run plot at checkpoint
+02:13 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:13 WARNING : Axis limits cannot be NaN or Inf
+02:13 WARNING : Failed to create dynesty run plot at checkpoint
+02:27 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:28 WARNING : Axis limits cannot be NaN or Inf
+02:28 WARNING : Failed to create dynesty run plot at checkpoint
+02:41 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:41 WARNING : singular matrix
+02:41 WARNING : Failed to create dynesty state plot at checkpoint
+02:41 WARNING : singular matrix
+02:41 WARNING : Failed to create dynesty unit state plot at checkpoint
+02:41 WARNING : singular matrix
+02:41 WARNING : Failed to create dynesty run plot at checkpoint
+02:55 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+02:56 WARNING : Axis limits cannot be NaN or Inf
+02:56 WARNING : Failed to create dynesty run plot at checkpoint
+03:10 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:10 WARNING : singular matrix
+03:10 WARNING : Failed to create dynesty state plot at checkpoint
+03:10 WARNING : singular matrix
+03:10 WARNING : Failed to create dynesty unit state plot at checkpoint
+03:10 WARNING : singular matrix
+03:10 WARNING : Failed to create dynesty run plot at checkpoint
+03:24 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:24 WARNING : Axis limits cannot be NaN or Inf
+03:24 WARNING : Failed to create dynesty run plot at checkpoint
+03:38 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:38 WARNING : Axis limits cannot be NaN or Inf
+03:38 WARNING : Failed to create dynesty run plot at checkpoint
+03:52 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+03:52 WARNING : Axis limits cannot be NaN or Inf
+03:52 WARNING : Failed to create dynesty run plot at checkpoint
+04:06 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:06 WARNING : Axis limits cannot be NaN or Inf
+04:06 WARNING : Failed to create dynesty run plot at checkpoint
+04:20 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:20 WARNING : singular matrix
+04:20 WARNING : Failed to create dynesty state plot at checkpoint
+04:20 WARNING : singular matrix
+04:20 WARNING : Failed to create dynesty unit state plot at checkpoint
+04:20 WARNING : singular matrix
+04:20 WARNING : Failed to create dynesty run plot at checkpoint
+04:34 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:34 WARNING : Axis limits cannot be NaN or Inf
+04:34 WARNING : Failed to create dynesty run plot at checkpoint
+04:48 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+04:48 WARNING : Axis limits cannot be NaN or Inf
+04:48 WARNING : Failed to create dynesty run plot at checkpoint
+05:02 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:02 WARNING : Axis limits cannot be NaN or Inf
+05:02 WARNING : Failed to create dynesty run plot at checkpoint
+05:16 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:16 WARNING : Axis limits cannot be NaN or Inf
+05:16 WARNING : Failed to create dynesty run plot at checkpoint
+05:30 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:30 WARNING : Axis limits cannot be NaN or Inf
+05:30 WARNING : Failed to create dynesty run plot at checkpoint
+05:44 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:44 WARNING : Axis limits cannot be NaN or Inf
+05:44 WARNING : Failed to create dynesty run plot at checkpoint
+05:58 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+05:59 WARNING : Axis limits cannot be NaN or Inf
+05:59 WARNING : Failed to create dynesty run plot at checkpoint
+06:12 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:12 WARNING : singular matrix
+06:12 WARNING : Failed to create dynesty state plot at checkpoint
+06:12 WARNING : singular matrix
+06:12 WARNING : Failed to create dynesty unit state plot at checkpoint
+06:12 WARNING : singular matrix
+06:12 WARNING : Failed to create dynesty run plot at checkpoint
+06:27 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:27 WARNING : Axis limits cannot be NaN or Inf
+06:27 WARNING : Failed to create dynesty run plot at checkpoint
+06:41 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:41 WARNING : singular matrix
+06:41 WARNING : Failed to create dynesty state plot at checkpoint
+06:41 WARNING : singular matrix
+06:41 WARNING : Failed to create dynesty unit state plot at checkpoint
+06:41 WARNING : singular matrix
+06:41 WARNING : Failed to create dynesty run plot at checkpoint
+06:55 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+06:55 WARNING : Axis limits cannot be NaN or Inf
+06:55 WARNING : Failed to create dynesty run plot at checkpoint
+07:08 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:09 WARNING : Axis limits cannot be NaN or Inf
+07:09 WARNING : Failed to create dynesty run plot at checkpoint
+07:22 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:23 WARNING : Axis limits cannot be NaN or Inf
+07:23 WARNING : Failed to create dynesty run plot at checkpoint
+07:37 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:37 WARNING : Axis limits cannot be NaN or Inf
+07:37 WARNING : Failed to create dynesty run plot at checkpoint
+07:51 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+07:51 WARNING : singular matrix
+07:51 WARNING : Failed to create dynesty state plot at checkpoint
+07:51 WARNING : singular matrix
+07:51 WARNING : Failed to create dynesty unit state plot at checkpoint
+07:51 WARNING : singular matrix
+07:51 WARNING : Failed to create dynesty run plot at checkpoint
+08:05 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:05 WARNING : singular matrix
+08:05 WARNING : Failed to create dynesty state plot at checkpoint
+08:05 WARNING : singular matrix
+08:05 WARNING : Failed to create dynesty unit state plot at checkpoint
+08:05 WARNING : singular matrix
+08:05 WARNING : Failed to create dynesty run plot at checkpoint
+08:19 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:19 WARNING : Axis limits cannot be NaN or Inf
+08:19 WARNING : Failed to create dynesty run plot at checkpoint
+08:33 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:33 WARNING : Axis limits cannot be NaN or Inf
+08:33 WARNING : Failed to create dynesty run plot at checkpoint
+08:47 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+08:47 WARNING : Axis limits cannot be NaN or Inf
+08:47 WARNING : Failed to create dynesty run plot at checkpoint
+09:01 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:01 WARNING : singular matrix
+09:01 WARNING : Failed to create dynesty state plot at checkpoint
+09:01 WARNING : singular matrix
+09:01 WARNING : Failed to create dynesty unit state plot at checkpoint
+09:01 WARNING : singular matrix
+09:01 WARNING : Failed to create dynesty run plot at checkpoint
+09:15 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:15 WARNING : Axis limits cannot be NaN or Inf
+09:15 WARNING : Failed to create dynesty run plot at checkpoint
+09:29 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:29 WARNING : singular matrix
+09:29 WARNING : Failed to create dynesty state plot at checkpoint
+09:29 WARNING : singular matrix
+09:29 WARNING : Failed to create dynesty unit state plot at checkpoint
+09:29 WARNING : singular matrix
+09:29 WARNING : Failed to create dynesty run plot at checkpoint
+09:43 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:43 WARNING : singular matrix
+09:43 WARNING : Failed to create dynesty state plot at checkpoint
+09:43 WARNING : singular matrix
+09:43 WARNING : Failed to create dynesty unit state plot at checkpoint
+09:43 WARNING : singular matrix
+09:43 WARNING : Failed to create dynesty run plot at checkpoint
+09:54 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+09:54 WARNING : Axis limits cannot be NaN or Inf
+09:54 WARNING : Failed to create dynesty run plot at checkpoint
+10:06 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:07 WARNING : Axis limits cannot be NaN or Inf
+10:07 WARNING : Failed to create dynesty run plot at checkpoint
+10:18 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:19 WARNING : Axis limits cannot be NaN or Inf
+10:19 WARNING : Failed to create dynesty run plot at checkpoint
+10:31 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:32 WARNING : Axis limits cannot be NaN or Inf
+10:32 WARNING : Failed to create dynesty run plot at checkpoint
+10:49 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+10:49 WARNING : singular matrix
+10:49 WARNING : Failed to create dynesty state plot at checkpoint
+10:49 WARNING : singular matrix
+10:49 WARNING : Failed to create dynesty unit state plot at checkpoint
+10:49 WARNING : singular matrix
+10:49 WARNING : Failed to create dynesty run plot at checkpoint
+11:10 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:10 WARNING : Axis limits cannot be NaN or Inf
+11:10 WARNING : Failed to create dynesty run plot at checkpoint
+11:27 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:27 WARNING : singular matrix
+11:27 WARNING : Failed to create dynesty state plot at checkpoint
+11:27 WARNING : singular matrix
+11:27 WARNING : Failed to create dynesty unit state plot at checkpoint
+11:27 WARNING : singular matrix
+11:27 WARNING : Failed to create dynesty run plot at checkpoint
+11:46 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:46 WARNING : singular matrix
+11:46 WARNING : Failed to create dynesty state plot at checkpoint
+11:46 WARNING : singular matrix
+11:46 WARNING : Failed to create dynesty unit state plot at checkpoint
+11:46 WARNING : singular matrix
+11:46 WARNING : Failed to create dynesty run plot at checkpoint
+11:56 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+11:57 WARNING : Axis limits cannot be NaN or Inf
+11:57 WARNING : Failed to create dynesty run plot at checkpoint
+12:07 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:07 WARNING : singular matrix
+12:07 WARNING : Failed to create dynesty state plot at checkpoint
+12:07 WARNING : singular matrix
+12:07 WARNING : Failed to create dynesty unit state plot at checkpoint
+12:07 WARNING : singular matrix
+12:07 WARNING : Failed to create dynesty run plot at checkpoint
+12:26 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:27 WARNING : Axis limits cannot be NaN or Inf
+12:27 WARNING : Failed to create dynesty run plot at checkpoint
+12:37 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:38 WARNING : Axis limits cannot be NaN or Inf
+12:38 WARNING : Failed to create dynesty run plot at checkpoint
+12:57 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+12:57 WARNING : singular matrix
+12:57 WARNING : Failed to create dynesty state plot at checkpoint
+12:57 WARNING : singular matrix
+12:57 WARNING : Failed to create dynesty unit state plot at checkpoint
+12:57 WARNING : singular matrix
+12:57 WARNING : Failed to create dynesty run plot at checkpoint
+13:16 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:16 WARNING : Axis limits cannot be NaN or Inf
+13:16 WARNING : Failed to create dynesty run plot at checkpoint
+13:36 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:36 WARNING : Axis limits cannot be NaN or Inf
+13:36 WARNING : Failed to create dynesty run plot at checkpoint
+13:58 INFO    : Written checkpoint file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_33_m2_33_IMRPhenomXAS_IMRPhenomXAS_npool_56/mtotal66.7_q1.0_z0.2_iota0.0_IMRPhenomXAS_resume.pickle
+13:58 WARNING : Axis limits cannot be NaN or Inf
+13:58 WARNING : Failed to create dynesty run plot at checkpoint

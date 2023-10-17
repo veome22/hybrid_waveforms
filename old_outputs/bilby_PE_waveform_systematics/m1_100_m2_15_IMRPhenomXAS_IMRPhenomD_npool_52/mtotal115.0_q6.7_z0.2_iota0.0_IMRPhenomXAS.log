@@ -1,0 +1,45 @@
+13:01 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+13:01 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+13:01 INFO    : Injected signal in CE:
+13:01 INFO    :   optimal SNR = 645.61
+13:01 INFO    :   matched filter SNR = 645.61+0.00j
+13:01 INFO    :   chirp_mass = 37.38491808669876
+13:01 INFO    :   mass_1 = 120.0
+13:01 INFO    :   mass_2 = 18.0
+13:01 INFO    :   chi_1 = 0.0
+13:01 INFO    :   chi_2 = 0.0
+13:01 INFO    :   luminosity_distance = 1011.4196559461382
+13:01 INFO    :   theta_jn = 0.0
+13:01 INFO    :   psi = 1.0471975511965976
+13:01 INFO    :   phase = 0.0
+13:01 INFO    :   geocent_time = 1577491218.0
+13:01 INFO    :   ra = 1.0471975511965976
+13:01 INFO    :   dec = 1.0471975511965976
+13:01 INFO    :   reference_frequency = 20.0
+13:01 INFO    :   minimum_frequency = 20.0
+13:01 INFO    : Distance marginalisation file /work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_100_m2_15_IMRPhenomXAS_IMRPhenomD_npool_52/mtotal115.0_q6.7_z0.2_iota0.0_IMRPhenomXAS_dist_lookup.npz does not exist
+13:01 INFO    : Building lookup table for distance marginalisation.
+13:01 INFO    : Running for label 'mtotal115.0_q6.7_z0.2_iota0.0_IMRPhenomXAS', output will be saved to '/work2/08178/vkapil/frontera/bilby_PE_waveform_systematics/m1_100_m2_15_IMRPhenomXAS_IMRPhenomD_npool_52'
+13:01 INFO    : Using lal version 7.1.3
+13:01 INFO    : Using lal git version Branch: None;Tag: lal-v7.1.3;Id: fa9914e5d72cc6168463b5fce79eeba8037404ad;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed
+13:01 INFO    : Using lalsimulation version 3.0.0
+13:01 INFO    : Using lalsimulation git version Branch: None;Tag: lalsimulation-v3.0.0;Id: e8e5ff5aa1ae2676019f59b6785f55284c417fda;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed
+13:01 INFO    : Search parameters:
+13:01 INFO    :   mass_ratio = PowerLaw(alpha=-2.0, minimum=0.1, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+13:01 INFO    :   total_mass = Uniform(minimum=34.5, maximum=345.0, name='total_mass', latex_label='$M$', unit=None, boundary=None)
+13:01 INFO    :   dec = Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+13:01 INFO    :   ra = Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+13:01 INFO    :   theta_jn = Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+13:01 INFO    :   psi = Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\psi$', unit=None, boundary='periodic')
+13:01 INFO    :   delta_phase = Uniform(minimum=0, maximum=6.283185307179586, name='delta_phase', latex_label='delta_phase', unit=None, boundary='periodic')
+13:01 INFO    :   chi_1 = Uniform(minimum=0, maximum=0.99, name='chi_1', latex_label='$\\chi_1$', unit=None, boundary=None)
+13:01 INFO    :   chi_2 = Uniform(minimum=0, maximum=0.99, name='chi_2', latex_label='$\\chi_2$', unit=None, boundary=None)
+13:01 INFO    :   time_jitter = Uniform(minimum=-0.00048828125, maximum=0.00048828125, name='time_jitter', latex_label='$t_j$', unit=None, boundary='periodic')
+13:01 INFO    :   luminosity_distance = 3417.166073216123
+13:01 INFO    :   geocent_time = 1577491067.0
