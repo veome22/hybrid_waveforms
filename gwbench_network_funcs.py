@@ -62,7 +62,7 @@ def get_network_response(inj_params, f_min=5., f_max=1024.,
         network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'], 
         approximant='IMRPhenomXAS', 
         deriv_symbs_string = 'Mc eta chi1z chi2z DL tc phic iota ra dec psi', 
-        cond_num=1e25, calc_detector_responses=True):
+        cond_num=1e25, calc_detector_responses=True, calc_derivs=True, calc_fisher=True):
     
     # if plain text network key is passed, override full network_spec
     if network_key is not None:
@@ -99,23 +99,27 @@ def get_network_response(inj_params, f_min=5., f_max=1024.,
     if not calc_detector_responses:
         return net
     
-    # compute the WF polarizations and their derivatives
-    net.calc_wf_polarizations_derivs_num()
+    if calc_derivs:
+        # compute the WF polarizations and their derivatives
+        net.calc_wf_polarizations_derivs_num()
 
     # setup antenna patterns, location phase factors, and PSDs
     net.setup_ant_pat_lpf_psds()
 
     # compute the detector responses
     net.calc_det_responses()
-    # compute the detector responses and their derivatives
-    net.calc_det_responses_derivs_num()
+
+    if calc_derivs:
+        # compute the detector responses and their derivatives
+        net.calc_det_responses_derivs_num()
 
     # calculate the network and detector SNRs
     net.calc_snrs()
 
-    # calculate the network and detector Fisher matrices, condition numbers,
-    # covariance matrices, error estimates, and inversion errors
-    net.calc_errors(cond_sup=cond_num)
+    if calc_fisher:
+        # calculate the network and detector Fisher matrices, condition numbers,
+        # covariance matrices, error estimates, and inversion errors
+        net.calc_errors(cond_sup=cond_num)
 
     # calculate the 90%-credible sky area (in deg)
     # net.calc_sky_area_90()
@@ -124,7 +128,8 @@ def get_network_response(inj_params, f_min=5., f_max=1024.,
 
 
 
-def get_hybrid_network_response(inj_params, f_min=5., f_max=1024.,
+def get_hybrid_network_response(inj_params1, f_min=5., f_max=1024.,
+        inj_params2 = None,
         network_key = None,
         network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'],
         approximant1='IMRPhenomXAS', approximant2='IMRPhenomD',
@@ -154,7 +159,7 @@ def get_hybrid_network_response(inj_params, f_min=5., f_max=1024.,
 
     # pass all these variables to the network
     net.set_net_vars(
-        f=f, inj_params=inj_params,
+        f=f, inj_params=inj_params2,
         deriv_symbs_string=deriv_symbs_string,
         use_rot=use_rot
         )
@@ -181,6 +186,6 @@ def get_hybrid_network_response(inj_params, f_min=5., f_max=1024.,
 
     # compute the cutler-vallisneri bias with respect to the approximant1 waveform model
     wf_true = wfc.Waveform(wf_model_name = 'lal_bbh', wf_other_var_dic = {'approximant': approximant1})
-    net.calc_cutler_vallisneri_bias(wf=wf_true)
+    net.calc_cutler_vallisneri_bias(wf=wf_true, inj_params=inj_params1)
 
     return net
