@@ -57,7 +57,7 @@ def get_network_snr(inj_params, f_min=5., f_max=1024., network_key = None, netwo
     return net
 
 
-def get_network_response(inj_params, f_min=5., f_max=1024., 
+def get_network_response(inj_params, f_min=5., f_max=1024., d_f = 2**-4,
         network_key = None, 
         network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'], 
         approximant='IMRPhenomXAS', 
@@ -68,7 +68,7 @@ def get_network_response(inj_params, f_min=5., f_max=1024.,
     if network_key is not None:
         network_spec = network_dict[network_key]
 
-
+    print(network_spec)
     # initialize the network with the desired detectors
     net = network.Network(network_spec)
 
@@ -78,9 +78,6 @@ def get_network_response(inj_params, f_min=5., f_max=1024.,
     net.set_wf_vars(wf_model_name=wf_model_name, wf_other_var_dic = {'approximant': approximant})
 
     # pick the desired frequency range
-    #f_min = 5.
-    #f_max = 1024.
-    d_f = 2**-4
     f = np.arange(f_min, f_max, d_f)
 
     # choose whether to take Earth's rotation into account
@@ -128,7 +125,7 @@ def get_network_response(inj_params, f_min=5., f_max=1024.,
 
 
 
-def get_hybrid_network_response(inj_params1, f_min=5., f_max=1024.,
+def get_hybrid_network_response(inj_params1, f_min=5., f_max=1024., d_f = 2**-4,
         inj_params2 = None,
         network_key = None,
         network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'],
@@ -151,7 +148,6 @@ def get_hybrid_network_response(inj_params1, f_min=5., f_max=1024.,
                                                        'approximant2': approximant2
                                                        })
     # pick the desired frequency range
-    d_f = 2**-4
     f = np.arange(f_min, f_max, d_f)
 
     # choose whether to take Earth's rotation into account
