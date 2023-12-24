@@ -15,7 +15,7 @@ network_dict = {
 def get_network_spec(net_key):
     return network_dict[net_key]
 
-def get_network_snr(inj_params, f_min=5., f_max=1024., network_key = None, network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'], approximant='IMRPhenomXAS', deriv_symbs_string = 'Mc eta DL chi1z chi2z iota ra dec psi', cond_num=1e25):
+def get_network_snr(inj_params, f_min=5., f_max=1024., network_key = None, network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'], approximant='IMRPhenomXAS', deriv_symbs_string = 'Mc eta DL chi1z chi2z iota ra dec psi', cond_num=1e25, **kwargs):
 
     # if plain text network key is passed, override full network_spec
     if network_key is not None:
@@ -42,7 +42,7 @@ def get_network_snr(inj_params, f_min=5., f_max=1024., network_key = None, netwo
     net.set_net_vars(
         f=f, inj_params=inj_params,
         deriv_symbs_string=deriv_symbs_string,
-        use_rot=use_rot
+        use_rot=use_rot, **kwargs
         )
 
     # setup antenna patterns, location phase factors, and PSDs
@@ -62,7 +62,7 @@ def get_network_response(inj_params, f_min=5., f_max=1024., d_f = 2**-4,
         network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'], 
         approximant='IMRPhenomXAS', 
         deriv_symbs_string = 'Mc eta chi1z chi2z DL tc phic iota ra dec psi', 
-        cond_num=1e25, calc_detector_responses=True, calc_derivs=True, calc_fisher=True):
+        cond_num=1e25, calc_detector_responses=True, calc_derivs=True, calc_fisher=True, **kwargs):
     
     # if plain text network key is passed, override full network_spec
     if network_key is not None:
@@ -87,7 +87,7 @@ def get_network_response(inj_params, f_min=5., f_max=1024., d_f = 2**-4,
     net.set_net_vars(
         f=f, inj_params=inj_params,
         deriv_symbs_string=deriv_symbs_string,
-        use_rot=use_rot
+        use_rot=use_rot, **kwargs
         )
 
     # compute the WF polarizations
@@ -131,7 +131,7 @@ def get_hybrid_network_response(inj_params1, f_min=5., f_max=1024., d_f = 2**-4,
         network_spec = ['CE-40_C', 'CE-20_S', 'ET_ET1', 'ET_ET2', 'ET_ET3'],
         approximant1='IMRPhenomXAS', approximant2='IMRPhenomD',
         deriv_symbs_string = 'Mc eta chi1z chi2z DL tc phic iota ra dec psi',
-        cond_num=1e25):
+        cond_num=1e25, **kwargs):
 
     # if plain text network key is passed, override full network_spec
     if network_key is not None:
@@ -157,7 +157,7 @@ def get_hybrid_network_response(inj_params1, f_min=5., f_max=1024., d_f = 2**-4,
     net.set_net_vars(
         f=f, inj_params=inj_params2,
         deriv_symbs_string=deriv_symbs_string,
-        use_rot=use_rot
+        use_rot=use_rot, **kwargs
         )
 
     # compute the WF polarizations
